@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru">
+<html lang="ru" xmlns:v-bind="http://www.w3.org/1999/xhtml">
 <link>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -16,14 +16,14 @@
     <div class="product">
 
         <div class="product-image">
-            <img alt="#" src="assets/vmSocks-green-onWhite.jpg"/>
+            <img :alt="altText" :src="image" />
         </div>
 
         <div class="product-info">
             <h1>{{ product }}</h1>
             <p>{{ description }}</p>
         </div>
-
+            <a :href="link">More products like this</a>
     </div>
 </div>
 
