@@ -10,10 +10,6 @@ body {
     margin-bottom: 15px;
 }
 
-.out-of-stock{
-    text-decoration: line-through;
-}
-
 .product {
     display: flex;
     flex-flow: wrap;
@@ -82,7 +78,7 @@ textarea {
     height: 60px;
 }
 
-.tab {
+.tabs {
     margin-left: 20px;
     cursor: pointer;
 }
